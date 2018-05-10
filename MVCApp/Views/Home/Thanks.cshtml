@@ -1,0 +1,22 @@
+﻿@model MVCApp.Models.Response
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet"/>
+    <title>Thanks</title>
+</head>
+<body>
+<div class="text-center">
+    <h1>Thanks, @Model.FirstName!</h1>
+    <h2>The Address you entered is @Model.StreetAddress+,+@Model.City+,+@Model.State+,+@Model.ZipCode </h2>
+</div>
+<div>
+</div>
+</body>
+</html>
